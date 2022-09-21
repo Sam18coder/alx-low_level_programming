@@ -4,7 +4,7 @@
 /**
 * rev_string - Reverses a string
 * @s: string to be reversed
-
+*
 * Return: nothing
 */
 
@@ -33,6 +33,6 @@ int _strlen(char *s)
 
 	while (*(s + len) != '\0')
 		len++;
-	
+
 	return (len);
 }
